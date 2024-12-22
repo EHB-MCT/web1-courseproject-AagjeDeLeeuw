@@ -11,7 +11,7 @@ body {
 h1 {
 	font-family: "Michroma", sans-serif;
 	margin-top: 40pt;
-	margin-bottom: 30pt;
+	margin-bottom: 50pt;
 }
 
 h2 {
@@ -24,6 +24,10 @@ h3 {
 	font-family: "Michroma", sans-serif;
 	margin-top: 20pt;
 	margin-bottom: 20pt;
+}
+
+.italic {
+	font-style: italic;
 }
 
 nav {
@@ -95,7 +99,7 @@ header {
 }
 
 .button:hover {
-	background-color: #17a2b8;
+	background-color: #ffd700;
 }
 
 .button:active {
