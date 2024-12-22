@@ -3,10 +3,10 @@
 
 body {
     background-color: #232363;
+    color: white;
 }
 
 h1 {
-    color: white;
     font-family: "Michroma", sans-serif;
     margin-top: 40pt;
     margin-bottom: 30pt;
@@ -14,21 +14,44 @@ h1 {
 }
 
 h2 {
-    color: white;
     font-family: "Michroma", sans-serif;
     margin-top: 20pt;
     margin-bottom: 40pt;
     margin-left: 20pt;
 }
 
+h3 {
+    font-family: "Michroma", sans-serif;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+    margin-left: 20pt;
+}
+
 p {
-    color: white;
     font-family: "Roboto", sans-serif;
     margin-top: 20pt;
     margin-left: 20pt;
-    Margin-right: 20pt;
+    margin-right: 20pt;
     font-size: 18pt;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
 
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
 
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
