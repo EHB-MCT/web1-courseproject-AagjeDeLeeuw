@@ -44,6 +44,7 @@ nav ul li {
 
 nav ul li .selected {
 	text-decoration: underline;
+	text-underline-offset: 0.4em;
 }
 
 nav ul li a {
@@ -53,6 +54,7 @@ nav ul li a {
 
 nav ul li a:hover {
 	text-decoration: underline;
+	text-underline-offset: 0.4em;
 }
 
 img {
@@ -108,7 +110,7 @@ main {
 	padding: 0 2em;
 }
 
-.content-with-image {
+.content {
 	display: flex;
 	justify-content: space-between;
 	gap: 5em;
@@ -129,6 +131,15 @@ main {
 	order: 2;
 }
 
+.big-title {
+	font-size: 2em;
+	width: 50%;
+	order: 1;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
 .image-inverse {
 	order: 2;
 }
@@ -137,9 +148,18 @@ main {
 	order: 1;
 }
 
+.big-title-inverse {
+	order: 2;
+	justify-content: flex-start;
+}
+
 footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 1em 2em;
 }
+
+/* #2D9CDB (Bright Cyan): Enhances the cool tone of the blue while providing clarity.
+#17A2B8 (Teal): A refined accent that pairs well without overwhelming.
+#FFD700 (Gold): Elegant and vibrant, perfect for pemium or celebratory vibes. */
