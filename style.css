@@ -254,6 +254,10 @@ footer a {
 	padding: 0.25em 0;
 }
 
+.spacing {
+	margin-bottom: 6em;
+}
+
 @media (max-width: 768px) {
 	#nav-bar ul {
 		display: none;
@@ -373,5 +377,10 @@ footer a {
 
 	footer #contact {
 		flex-direction: column;
+		width: 500px;
+	}
+
+	footer p {
+		width: 500px;
 	}
 }
