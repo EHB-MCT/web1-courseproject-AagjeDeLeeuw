@@ -6,18 +6,30 @@
 		<title>Sheldon Cooper - Skills</title>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="icon" type="image/x-icon" href="images/favicon.png" />
+		<script src="script.js"></script>
 	</head>
 	<body>
 		<nav>
-			<a href="index.html">
-				<img src="images/logo.jpg" alt="Logo" />
-			</a>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="skills.html" class="selected">Skills</a></li>
-				<li><a href="experience.html">Experience</a></li>
-				<li><a href="publications.html">Publications</a></li>
-			</ul>
+			<div id="nav-bar">
+				<a href="index.html">
+					<img src="images/logo.jpg" alt="Logo" />
+				</a>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="skills.html" class="selected">Skills</a></li>
+					<li><a href="experience.html">Experience</a></li>
+					<li><a href="publications.html">Publications</a></li>
+				</ul>
+				<a href="javascript:void(0);" onclick="menu()" id="menu">
+					<img src="images/hamburger-menu.svg" alt="Menu" />
+				</a>
+			</div>
+			<div id="nav-menu">
+				<a href="index.html">Home</a>
+				<a href="skills.html" class="selected">Skills</a>
+				<a href="experience.html">Experience</a>
+				<a href="publications.html">Publications</a>
+			</div>
 		</nav>
 		<main>
 			<h1>Skills</h1>
@@ -86,6 +98,23 @@
 				</div>
 			</div>
 		</main>
-		<footer></footer>
+		<footer>
+			<div id="contact">
+				<p>
+					Email:
+					<a href="mailto:sheldon.cooper@caltech.edu"
+						>sheldon.cooper@caltech.edu</a
+					>
+				</p>
+				<p>Phone: <a href="tel:+16265550198">(626) 555-0198</a></p>
+				<p>
+					LinkedIn:
+					<a href="https://linkedin.com/in/sheldoncooper" target="_blank"
+						>linkedin.com/in/sheldoncooper</a
+					>
+				</p>
+			</div>
+			<p>&copy; 2024 Sheldon Lee Cooper</p>
+		</footer>
 	</body>
 </html>
